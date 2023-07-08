@@ -32,7 +32,7 @@ function App() {
     <Box p={'10px'} minHh={'8vh'} bg={'#00FFFF'} w={'100%'}>
       <Box  w={{base: '90%', md: '80%'}}  className='center' display={'flex'} justifyContent={'space-between'} alignItems={'center'}>
         <Box>
-            <Text display={{base: 'none', md: 'flex'}} fontSize={{base: '25px', md: '33px'}} fontWeight={{base: '400', md: '700'}}>Code Wizard</Text>
+            <Text display={{base: 'none', md: 'flex'}} color={'#fff'} fontSize={{base: '25px', md: '33px'}} fontWeight={{base: '400', md: '700'}}>Code Wizard</Text>
         </Box>
         <Box>
             <Text  fontSize={{base: '24px', md: '33px'}} fontWeight={{base: '400', md: '700'}} color={'orange.200'}>Namoz Vaqtlari</Text>

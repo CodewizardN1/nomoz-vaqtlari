@@ -1,4 +1,5 @@
 import bg from './bg.jpg'
 import icon from './unnamed.png'
-
-export {bg, icon}
+import bgg from './bgg.jpg'
+import mob from './mob.jpg'
+export {bg, icon, bgg, mob}
