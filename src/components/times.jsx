@@ -29,7 +29,7 @@ const Times = ({ api }) => {
         w={"100%"}
       >
         <Box
-          pt={{ base: "40px", md: "280px" }}
+          pt={{ base: "40px", md: "280px", sm: '20px' }}
           w={{ base: "90%", md: "90%" }}
           className="center"
           display={"flex"}
@@ -41,7 +41,7 @@ const Times = ({ api }) => {
           <Box
             className="filter"
             w={{ base: "80%", md: "250px" }}
-            h={"230px"}
+            h={{md: "230px", sm: '190px'}}
             border={"1px"}
             borderRadius={"20px"}
             display={"flex"}
@@ -84,7 +84,7 @@ const Times = ({ api }) => {
           </Box>
           <Box
             w={{ base: "80%", md: "250px" }}
-            h={"230px"}
+            h={{md: "230px", sm: '190px'}}
             border={"1px"}
             borderRadius={"20px"}
             display={"flex"}
@@ -127,7 +127,7 @@ const Times = ({ api }) => {
           </Box>
           <Box
             w={{ base: "80%", md: "250px" }}
-            h={"230px"}
+            h={{md: "230px", sm: '190px'}}
             border={"1px"}
             borderRadius={"20px"}
             display={"flex"}
@@ -170,7 +170,7 @@ const Times = ({ api }) => {
           </Box>
           <Box
             w={{ base: "80%", md: "250px" }}
-            h={"230px"}
+            h={{md: "230px", sm: '190px'}}
             border={"1px"}
             borderRadius={"20px"}
             display={"flex"}
@@ -213,7 +213,7 @@ const Times = ({ api }) => {
           </Box>
           <Box
             w={{ base: "80%", md: "250px" }}
-            h={"230px"}
+            h={{md: "230px", sm: '190px'}}
             border={"1px"}
             borderRadius={"20px"}
             display={"flex"}
@@ -257,7 +257,7 @@ const Times = ({ api }) => {
           <Box
             mb={{ base: "15px", md: "0" }}
             w={{ base: "80%", md: "250px" }}
-            h={"230px"}
+            h={{md: "230px", sm: '190px'}}
             border={"1px"}
             borderRadius={"20px"}
             display={"flex"}
