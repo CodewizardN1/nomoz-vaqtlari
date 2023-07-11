@@ -37,7 +37,7 @@ function App() {
     <Box>
 
 
-    <Box p={'10px'} minHh={'5vh'} bg={'#FAD5A5'} w={'100%'}>
+    <Box display={{base: 'none',md :'flex'}} p={'10px'} minHh={'5vh'} bg={'#FAD5A5'} w={'100%'}>
       <Box  w={{base: '90%', md: '80%'}}  className='center' display={{base: 'none', md: 'flex'}} justifyContent={'space-between'} alignItems={'center'}>
         
         <Box>
@@ -75,7 +75,11 @@ function App() {
         </Box>
       </Box>
 
-      <Box display={{base: 'visible', md: 'none'}} w={'85%'} className="center ">
+      
+    </Box>
+
+    <Box display={{base: 'flex',md :'none'}} p={'10px'} minHh={'5vh'} bg={'#FAD5A5'} w={'100%'}>
+    <Box  w={'85%'} className="center ">
         <Box display={'flex'} justifyContent={'space-between'} alignItems={'center'}>
         <Box>
         <Text  fontSize={{base: '24px', md: '33px'}} fontWeight={{base: '400', md: '700'}} color={'#fff'}>Namoz Vaqtlari</Text>
@@ -104,6 +108,12 @@ function App() {
         </Menu>
         </Box>
 
+        </Box>
+
+
+        <Box display={'flex'} alignItems={'center'} justifyContent={'space-between'}>
+        <Text textAlign={'center'} fontWeight={'400'} fontSize={'16px'} color={'#fff'}>Sana: {date}</Text> 
+        <Text fontWeight={'400'} fontSize={'16px'} color={'#fff'}>Vaqt: {current}</Text>
         </Box>
 
         
