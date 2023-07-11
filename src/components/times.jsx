@@ -24,7 +24,7 @@ const Times = ({ api }) => {
       <Box
         bgImage={{base: mob, md:  bgg}}
         bgSize={"cover"}
-        h={{ base: "100%", md: "85vh" }}
+        h={{ base: "100%", md: "91.8vh" }}
         bgPosition={"center"}
         w={"100%"}
       >
@@ -41,7 +41,7 @@ const Times = ({ api }) => {
           <Box
             className="filter"
             w={{ base: "80%", md: "250px" }}
-            h={{md: "230px", sm: '190px'}}
+            h={'230px'}
             border={"1px"}
             borderRadius={"20px"}
             display={"flex"}
@@ -84,7 +84,7 @@ const Times = ({ api }) => {
           </Box>
           <Box
             w={{ base: "80%", md: "250px" }}
-            h={{md: "230px", sm: '190px'}}
+            h={'230px'}
             border={"1px"}
             borderRadius={"20px"}
             display={"flex"}
@@ -127,7 +127,7 @@ const Times = ({ api }) => {
           </Box>
           <Box
             w={{ base: "80%", md: "250px" }}
-            h={{md: "230px", sm: '190px'}}
+            h={'230px'}
             border={"1px"}
             borderRadius={"20px"}
             display={"flex"}
@@ -170,7 +170,7 @@ const Times = ({ api }) => {
           </Box>
           <Box
             w={{ base: "80%", md: "250px" }}
-            h={{md: "230px", sm: '190px'}}
+            h={'230px'}
             border={"1px"}
             borderRadius={"20px"}
             display={"flex"}
@@ -213,7 +213,7 @@ const Times = ({ api }) => {
           </Box>
           <Box
             w={{ base: "80%", md: "250px" }}
-            h={{md: "230px", sm: '190px'}}
+            h={'230px'}
             border={"1px"}
             borderRadius={"20px"}
             display={"flex"}
@@ -257,7 +257,7 @@ const Times = ({ api }) => {
           <Box
             mb={{ base: "15px", md: "0" }}
             w={{ base: "80%", md: "250px" }}
-            h={{md: "230px", sm: '190px'}}
+            h={'230px'}
             border={"1px"}
             borderRadius={"20px"}
             display={"flex"}
